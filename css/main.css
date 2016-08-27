@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (min-width: 450px) {
+body{
+	background:white; 
+	/*margin:auto;/*this is for the left and right margin*/
+	margin-top:0px;
+	
+}
+#menubar1{padding-left: 24px; /*24px*/
+border:gray 0px solid;/*this is the boarder around the menu*/
+height:90px;/*the height of the menu dive*/
+width:100%;/*with of the menu dive 90%*/
+ margin-left: auto ;
+     margin-right: auto ;
+}
+
+
+
+#menubar1 a {
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background:#333;
+	padding: 12px 20px;     /* 12px 24px this is the last change*/
+	color:#999;
+	margin-right:10px;
+	text-decoration:none;
+	border-radius: 5px;
+	-0-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	float:left;
+	width:155px; /*155px this was last change*/
+	text-align:center;
+	border-bottom: 1px solid #ff0000;
+	
+
+	
+}
+#menubar1 a:hover{
+background: #6F8A00;
+color:#fff;
+}
+#contain{
+	text-align:center;
+	border:10px solid;
+    border-radius:25px;
+	width: 100%;
+	
+	
+	
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h2{color:#333;}
+
+/*
+#footer{
+background-color:white;
+margin-bottom:-20px;/*this is for the footer to touch the bottom of the container div*/
+
+
+}
+
+
+
+
+@media screen and (max-width: 450px) {
+    body {
+        background-color: white;
+
+    }
+    #menubar1{padding-left: 0px; /*24px*/
+border:gray 0px solid;/*this is the boarder around the menu*/
+height:90px;/*the height of the menu dive*/
+width:100%;/*with of the menu dive 90%*/
+ margin-left: auto ;
+     margin-right: auto ;
+}
+
+
+
+#menubar1 a {
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background:#333;
+	padding: 3px 3px;                  /* 12px 24px this is the last change*/
+	color:#999;
+	margin-right:10px;
+	text-decoration:none;
+	border-radius: 5px;
+	-0-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	float:left;
+	width:100%; /*155px this was last change// 400px this the last change*/
+	text-align:center;
+	border-bottom: 1px solid #ff0000;
+	
+
+	
+}
+#menubar1 a:hover{
+background: #6F8A00;
+color:#fff;
+}
+
+
+
+}this is the end of media query
+
+/*this is the new css for media for moble phones*/
+
+
+
+
+@media only screen and (max-device-width: 250px) {
+    body {
+        background-color: white;
+
+    }
+    #menubar1{padding-left: 0px; /*24px*/
+border:gray 0px solid;/*this is the boarder around the menu*/
+height:90px;/*the height of the menu dive*/
+width:100%;/*with of the menu dive 90%*/
+ margin-left: auto ;
+     margin-right: auto ;
+}
+
+
+
+#menubar1 a {
+ 	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background:#333;
+	padding: 3px 3px;                  /* 12px 24px this is the last change*/
+	color:#999;
+	margin-right:10px;
+	text-decoration:none;
+	border-radius: 5px;
+	-0-transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	transition: background 0.3s linear 0s, color 0.3s linear 0s;
+	float:left;
+	width:100%; /*155px this was last change// the last change was 400px*/
+	text-align:center;
+	border-bottom: 1px solid #ff0000;
+	
+
+	
+}
+#menubar1 a:hover{
+background: #6F8A00;
+color:#fff;
+}
+
+
+
+}/*this is the end of media query*/
